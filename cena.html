@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malarz</title>
+    <link rel="stylesheet" href="styl_1.css">
+    <script src="skrypt.js"></script>
+</head>
+<body>
+    <div class="baner-block">
+        <h1>
+            Malowanie pokoi biur
+        </h1>
+    </div>
+
+    <div class="content-block">
+        <div class="content-left-block">
+            <h2>
+                Menu
+            </h2>
+
+            <ul>
+                <li><a href="mieszamy.html"> Mieszamy </a></li>
+                <li><a href="cena.html"> Wyceniamy </a></li>
+            </ul>
+        </div>
+
+        <div class="content-mid-block">
+            <h2>
+                Zapotrzebowanie na farbę
+            </h2>
+
+            Powierzchnia malowania (m<sup>2</sup>):
+            <br><br>
+            <input type="number" id="powierzchnia">
+            <input type="button" onclick="Formularz()" value="Policz">
+            <br><br>
+
+            <!-- 
+                SPAN: Liczba potrzebnych puszek: x
+            -->
+            <label id="infoLabel" style="display: none;"></label>
+        </div>
+
+        <div class="content-right-block">
+            <img src="obraz.png" alt="Próbki farb">
+        </div>
+    </div>
+
+    <div class="footer-block">
+        <h3>
+            MALARZ
+        </h3>
+
+        <p>
+            Stronę opracował: 55555
+        </p>
+    </div>
+</body>
+</html>
